@@ -1,1 +1,7 @@
 # Final-Term-Project-SOFTWARE-ENGINEERING
+In agile, it is easier to make changes or adding to fit and satisfy customer's needs. Customers' will feel more involve knowing that we have taken them into account.                                                                                                   
+The target audience is for all age young, old, etc meaning it's free for everyone to play.                                   
+Software development plan:                                                                                                                                                   
+The development process starts with the idea we all came up with 'The horse game' it is a game where a horse jumps up and down with no end at sight unless if it touches the cactus you lose. Survival of the fittess is the key.The main idea is to get a highscore compare with other people.     
+We have selected 10 people at random to particapate in the game and see if any changes should be made (Bugs). After getting the result,we decided to take into account of what the participants want to change.                                                                                                                                           
+We have a total of 4 members. The status of the software is completed. In the near future, we plan on improving the graphic image of the game.
