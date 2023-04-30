@@ -35,3 +35,6 @@ Status:
 
 Future Plan:
 - In the near future, we plan on improving the graphic image of the game.
+
+DEMO VIDEO:
+https://www.youtube.com/watch?v=hJ95FIGJVR4
