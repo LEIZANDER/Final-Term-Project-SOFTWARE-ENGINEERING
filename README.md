@@ -27,7 +27,7 @@ Schedule:
 
 
 
-! Algorithm:  
+Algorithm:  
 - 
 
 Status:
