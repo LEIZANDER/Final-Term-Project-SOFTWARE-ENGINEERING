@@ -11,8 +11,7 @@ In agile, it is easier to make changes or adding to fit and satisfy customer's n
 Target Market:
 The target audience is for all ages young, old, etc meaning it's free for everyone to play.                                   
 
-Software development plan:                                                                                                                                                   
-The development process starts with the idea we all came up with 'The horse game' it is a game where a horse jumps up and down with no end at sight unless if it touches the
+Software development plan:                                                                                                                                                   The development process starts with the idea we all came up with 'The horse game' it is a game where a horse jumps up and down with no end at sight unless if it touches the
 cactus you lose. Survival of the fittess is the key.The main idea is to get a highscore compare with other people.     
 
 Testing:
