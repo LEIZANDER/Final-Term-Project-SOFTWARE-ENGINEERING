@@ -1,4 +1,8 @@
 # Final-Term-Project-SOFTWARE-ENGINEERING
+Purpose of the software:
+All software development process is applied is Planning, Implementing and Testing except for Maintenance.
+We chose agile because of its profound lack of creating an error which means more flexible and making it a more easier to capture the customer's needs so that the customer is satisfied with the end product.
+
 In agile, it is easier to make changes or adding to fit and satisfy customer's needs. Customers' will feel more involve knowing that we have taken them into account.                                                                                                   
 The target audience is for all age young, old, etc meaning it's free for everyone to play.                                   
 Software development plan:                                                                                                                                                   
