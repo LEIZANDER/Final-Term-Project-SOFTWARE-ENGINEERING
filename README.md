@@ -20,7 +20,7 @@ Testing:
 the participants want to change.           
 
 Memebers:
-- We have a total of 4 members. 
+- We have a total of 5 members. 
 
 Schedule:
 ![image](https://user-images.githubusercontent.com/132199858/235353490-0d700cd4-e84f-4d77-9064-0d97e6c0c8e8.png)
