@@ -4,7 +4,8 @@ Purpose of the software:
 All software development process is applied is Planning, Implementing and Testing except for Maintenance.
 
 Why we chose agile:
-We chose agile because of its profound lack of error which means more flexible and making it a more easier to capture the customer's needs so that the customer is satisfied with the end result.
+We chose agile because of its profound lack of error which means more flexible and making it a more easier to capture the customer's needs so that the customer is satisfied 
+with the end result.
 In agile, it is easier to make changes or adding to fit and satisfy customer's needs. Customers' will feel more involve knowing that we have taken them into account.                                                      
 Target Market:
 The target audience is for all ages young, old, etc meaning it's free for everyone to play.                                   
