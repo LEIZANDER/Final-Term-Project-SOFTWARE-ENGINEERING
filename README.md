@@ -21,7 +21,7 @@ We have a total of 4 members.
 Schedule:
 
 
-Algorithm:
+Algorithm:  
 
 
 Status:
