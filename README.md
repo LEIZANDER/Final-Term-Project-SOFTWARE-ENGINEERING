@@ -9,7 +9,6 @@ with the end result.
 In agile, it is easier to make changes or adding to fit and satisfy customer's needs. Customers' will feel more involve knowing that we have taken them into account.        
 
 Target Market:
-
 The target audience is for all ages young, old, etc meaning it's free for everyone to play.                                   
 
 Software development plan:                                                                                                                                                  
