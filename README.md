@@ -28,7 +28,7 @@ Schedule:
 
 
 Algorithm:  
-- sdsdadadadada
+-
 
 Status:
 - The status of the software is completed. 
