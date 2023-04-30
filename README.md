@@ -1,5 +1,7 @@
 # Final-Term-Project-SOFTWARE-ENGINEERING
+
 Purpose of the software:
+
 All software development process is applied is Planning, Implementing and Testing except for Maintenance.
 
 Why we chose agile:
