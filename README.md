@@ -28,7 +28,7 @@ Schedule:
 
 
 Algorithm:  
-- In the keypad we have assigned the arrow up as jump, cactus as the object, cloud as the background image and highscore display on the top-right.
+- On the keypad we have assigned the arrow up as jump, cactus as the object, cloud as the background image and highscore display on the top-right.
 
 Status:
 - The status of the software is completed. 
