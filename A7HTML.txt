@@ -1,0 +1,19 @@
+//A7
+<div class="product-list">
+  <div class="product">
+    <h3>Product A</h3>
+    <p>$50.00</p>
+    <button onclick="addToCart('Product A', 50.00, 1)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <h3>Product B</h3>
+    <p>$65.00</p>
+    <button onclick="addToCart('Product B', 65.00, 1)">Add to Cart</button>
+  </div>
+  //Add more products here
+</div>
+
+<script>
+  function addToCart(productName, price, quantity) {
+  }
+</script>

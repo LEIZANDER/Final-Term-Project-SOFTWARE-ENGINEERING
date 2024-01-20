@@ -1,0 +1,39 @@
+//A6
+<div class="product-list">
+  <div class="product" onclick="openModal('Product A', '$50.00', 'thumbnail.jpg', 'Description', 'Rating')">
+    //Display product information here
+  </div>
+  <div class="product" onclick="openModal('Product B', '$65.00', 'thumbnail.jpg', 'Description', 'Rating')">
+    //Display product information here
+  </div>
+  //Add more products here
+</div>
+
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="productName"></h2>
+    <p id="productPrice"></p>
+    <img id="productImage" src="" alt="Product Thumbnail">
+    <p id="productDescription"></p>
+    <p id="productRating"></p>
+  </div>
+</div>
+
+<script>
+  function openModal(name, price, image, description, rating) {
+    const modal = document.getElementById('productModal');
+    modal.style.display = 'block';
+
+    document.getElementById('productName').innerText = name;
+    document.getElementById('productPrice').innerText = price;
+    document.getElementById('productImage').src = image;
+    document.getElementById('productDescription').innerText = description;
+    document.getElementById('productRating').innerText = rating;
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('productModal');
+    modal.style.display = 'none';
+  }
+</script>

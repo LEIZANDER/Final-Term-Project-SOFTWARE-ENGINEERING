@@ -1,0 +1,33 @@
+//A5
+<div class="product-list" id="productList">
+</div>
+
+<script>
+  let page = 1; // Initial page number
+  let loading = false;
+
+  window.addEventListener('scroll', () => {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight && !loading) {
+      loading = true;
+      const moreProducts = getMoreProducts(page);
+      displayMoreProducts(moreProducts);
+      loading = false;
+      page++;
+    }
+  });
+
+  function getMoreProducts(pageNumber) {
+    return [
+      { name: 'Product C', price: '$70.00' },
+      { name: 'Product D', price: '$55.00' },
+      // Add more products here
+    ];
+  }
+
+  function displayMoreProducts(products) {
+    const productList = document.getElementById('productList');
+
+    products.forEach(product => {
+    });
+  }
+</script>

@@ -1,0 +1,32 @@
+//A5
+<div class="product-list" id="productList">
+</div>
+<div class="pagination">
+  <button onclick="loadPage(1)">1</button>
+  <button onclick="loadPage(2)">2</button>
+  <button onclick="loadPage(3)">3</button>
+  //Add more page buttons as needed 
+</div>
+
+<script>
+  function loadPage(pageNumber) {
+    const products = getProductsForPage(pageNumber);
+    displayProducts(products);
+  }
+
+  function getProductsForPage(pageNumber) {
+    return [
+      { name: 'Product A', price: '$50.00' },
+      { name: 'Product B', price: '$65.00' },
+      // Add more products here
+    ];
+  }
+
+  function displayProducts(products) {
+    const productList = document.getElementById('productList');
+    productList.innerHTML = ''; // Clear previous products
+
+    products.forEach(product => {
+    });
+  }
+</script>

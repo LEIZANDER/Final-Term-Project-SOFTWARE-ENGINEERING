@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Online Shopping</title>
+</head>
+<body>
+  <header>
+    <h1>Online Shopping</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="product1.jpg" alt="Product 1">
+        <h2>Product 1</h2>
+        <p>$20.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </section>
+    <section class="cart">
+      <h2>Shopping Cart</h2>
+      <ul>
+      </ul>
+      <p>Total: $<span id="total">0.00</span></p>
+      <button>Checkout</button>
+    </section>
+  </main>
+
+<div><img src ="logo.png"></div>
+<h1>ASOS</h1>
+
+<a href = "padding-right:20px">Home</a>
+<a href = "padding-right:20px">About</a>
+<a href = "padding-right:20px">Services</a>
+
+
+<p>This is Fashion</p>
+
+<div><a></a></div>
+
+<a href = "https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjyueLGkuSDAxWMk1YBHV-_DCoQPAgJ">Read More</a>
+
+<h1>Trendy outfits</h1>
+
+<img src ="Image01.png">
+<img src ="Image02.png">
+<img src ="Image03.png">
+
+<div> 
+<video src = "yourvideo/.mp4"controls>
+</div>
+
+
+//A9
+<div class="shopping-cart">
+  <h2>Shopping Cart</h2>
+  <ul id="cart-items">
+  </ul>
+  <p>Total: <span id="total-amount">$0.00</span></p>
+</div>
+
+<div class="product-list">
+  <div class="product">
+    <h3>Product A</h3>
+    <p>$50.00</p>
+    <button onclick="addToCart('Product A', 50.00, 1)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <h3>Product B</h3>
+    <p>$65.00</p>
+    <button onclick="addToCart('Product B', 65.00, 1)">Add to Cart</button>
+  </div>
+  //Add more products here
+</div>
+
+<script>
+  const cartItems = [];
+
+  function addToCart(productName, price, quantity) {
+    const existingItem = cartItems.find(item => item.productName === productName);
+    if (existingItem) {
+      // If the product is already in the cart, update the quantity
+      existingItem.quantity += quantity;
+    } else {
+      // If the product is not in the cart, add it with the specified quantity
+      cartItems.push({ productName, price, quantity });
+    }
+    updateCartUI();
+  }
+
+  function updateCartUI() {
+    const cartList = document.getElementById('cart-items');
+    cartList.innerHTML = '';
+
+    let totalAmount = 0;
+
+    cartItems.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.textContent = ${item.productName} - $${item.price} - Quantity: ${item.quantity};
+      listItem.onclick = () => {
+        // Implement logic to show product detail when an item is clicked
+        alert(Product: ${item.productName}\nPrice: $${item.price}\nQuantity: ${item.quantity});
+      };
+      cartList.appendChild(listItem);
+      
+      totalAmount += item.price * item.quantity;
+    });
+
+    document.getElementById('total-amount').textContent = $${totalAmount.toFixed(2)};
+  }
+</script>
+
+</body>
+</html>

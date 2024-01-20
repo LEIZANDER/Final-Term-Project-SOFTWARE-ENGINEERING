@@ -1,0 +1,49 @@
+//A4
+<input type="text" id="searchInput" placeholder="Search by product name">
+<button onclick="searchProducts()">Search</button>
+<div class="product-list" id="productList">
+</div>
+
+//A4
+function searchProducts() {
+  const searchInput = document.getElementById('searchInput').value;
+  const searchResults = getSearchResultsFromServer(searchInput);
+  displaySearchResults(searchResults);
+}
+
+function getSearchResultsFromServer(query) {
+  return [
+    { name: 'Product 1', price: '$50.00', image: 'product1.jpg' },
+    { name: 'Product 2', price: '$65.00', image: 'product2.jpg' }
+  ];
+}
+
+function displaySearchResults(results) {
+  const productList = document.getElementById('productList');
+  productList.innerHTML = '';
+
+  results.forEach(product => {
+    const productDiv = document.createElement('div');
+    productDiv.classList.add('product');
+
+    const img = document.createElement('img');
+    img.src = product.image;
+    img.alt = product.name;
+
+    const name = document.createElement('h3');
+    name.textContent = product.name;
+
+    const price = document.createElement('p');
+    price.textContent = product.price;
+
+    const button = document.createElement('button');
+    button.textContent = 'Add to Cart';
+
+    productDiv.appendChild(img);
+    productDiv.appendChild(name);
+    productDiv.appendChild(price);
+    productDiv.appendChild(button);
+
+    productList.appendChild(productDiv);
+  });
+}
